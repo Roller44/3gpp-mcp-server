@@ -1,0 +1,18 @@
+{
+  "documentRoot": "/path/to/your/3gpp-documents",
+  "indexPath": "./index/3gpp-fts.db",
+  "downloadsDir": "./downloads",
+  "ftp": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "baseUrl": "https://www.3gpp.org/ftp/Specs/archive",
+    "dynareportUrl": "https://www.3gpp.org/dynareport",
+    "retryAttempts": 3,
+    "retryDelayMs": 2000,
+    "timeoutMs": 30000
+  },
+  "sync": {
+    "autoIndexOnDownload": true,
+    "maxConcurrentDownloads": 1,
+    "delayBetweenSpecs": 1000
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "3gpp-6g-mcp-server",
+  "version": "1.0.0",
+  "description": "3GPP 6G MCP Server — real FTP download + local full-text search over 6G specifications",
+  "main": "dist/index.js",
+  "type": "commonjs",
+  "bin": {
+    "3gpp-6g-mcp": "./bin/run.js"
+  },
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').cpSync('src/data','dist/data',{recursive:true})\"",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "mcp": "node dist/index.js",
+    "sync-all": "node dist/scripts/sync-all-6g.js",
+    "clean": "rmdir /s /q dist 2>nul & rmdir /s /q index 2>nul"
+  },
+  "keywords": [
+    "mcp",
+    "3gpp",
+    "6g",
+    "specifications",
+    "full-text-search",
+    "telecom",
+    "standards"
+  ],
+  "author": "6GStandard Project",
+  "license": "BSD-3-Clause",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.0",
+    "axios": "^1.6.0",
+    "better-sqlite3": "^13.0.0",
+    "mammoth": "^1.8.0",
+    "adm-zip": "^0.5.16"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.0",
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/adm-zip": "^0.5.5",
+    "typescript": "^5.9.2"
+  }
+}

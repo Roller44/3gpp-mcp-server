@@ -1,0 +1,195 @@
+{
+  "version": "1.0.0",
+  "description": "Curated catalog of 3GPP specifications relevant to 6G standardization. Users can extend this by adding entries.",
+  "specs": [
+    {
+      "spec_number": "23.700-40",
+      "title": "Study on architecture aspects for 6G",
+      "series": "23",
+      "working_group": "SA2",
+      "document_type": "TR",
+      "category": "architecture",
+      "notes": "FS_6G_ARC — the foundational 6G architecture study item"
+    },
+    {
+      "spec_number": "23.700-41",
+      "title": "Study on 6G connectivity enablers",
+      "series": "23",
+      "working_group": "SA2",
+      "document_type": "TR",
+      "category": "architecture",
+      "notes": "SA2 6G connectivity enablers study"
+    },
+    {
+      "spec_number": "23.700-42",
+      "title": "Study on 6G system enablers",
+      "series": "23",
+      "working_group": "SA2",
+      "document_type": "TR",
+      "category": "architecture",
+      "notes": "SA2 6G system enablers study"
+    },
+    {
+      "spec_number": "23.700-43",
+      "title": "Study on 6G — SAT-architecture aspects",
+      "series": "23",
+      "working_group": "SA2",
+      "document_type": "TR",
+      "category": "architecture",
+      "notes": "SA2 6G satellite integration architecture"
+    },
+    {
+      "spec_number": "23.700-44",
+      "title": "Study on 6G aspects",
+      "series": "23",
+      "working_group": "SA2",
+      "document_type": "TR",
+      "category": "architecture",
+      "notes": "SA2 additional 6G aspects study"
+    },
+    {
+      "spec_number": "23.700-45",
+      "title": "Study on 6G — architecture aspects (extension)",
+      "series": "23",
+      "working_group": "SA2",
+      "document_type": "TR",
+      "category": "architecture",
+      "notes": "SA2 6G architecture extension study"
+    },
+    {
+      "spec_number": "38.843",
+      "title": "Study on AI/ML for NG-RAN",
+      "series": "38",
+      "working_group": "RAN3",
+      "document_type": "TR",
+      "category": "ran",
+      "notes": "AI/ML enablers for NG-RAN — 6G RAN intelligence study"
+    },
+    {
+      "spec_number": "38.801",
+      "title": "Study on new radio access technology",
+      "series": "38",
+      "working_group": "RAN",
+      "document_type": "TR",
+      "category": "ran",
+      "notes": "NR access technology study — relevant as 6G RAN baseline"
+    },
+    {
+      "spec_number": "38.821",
+      "title": "Solutions for NR to operate above 52.6 GHz",
+      "series": "38",
+      "working_group": "RAN",
+      "document_type": "TR",
+      "category": "ran",
+      "notes": "Above-52.6 GHz operation — relevant to 6G spectrum"
+    },
+    {
+      "spec_number": "38.890",
+      "title": "Study on NR positioning enhancements",
+      "series": "38",
+      "working_group": "RAN",
+      "document_type": "TR",
+      "category": "ran",
+      "notes": "NR positioning — relevant to 6G cm/mmWave positioning"
+    },
+    {
+      "spec_number": "26.870",
+      "title": "Study on 6G media and AI traffic",
+      "series": "26",
+      "working_group": "SA4",
+      "document_type": "TR",
+      "category": "media",
+      "notes": "6G-MED — media delivery and AI traffic handling for 6G"
+    },
+    {
+      "spec_number": "22.877",
+      "title": "Study on 6G use cases and requirements",
+      "series": "22",
+      "working_group": "SA1",
+      "document_type": "TR",
+      "category": "services",
+      "notes": "SA1 6G use cases and service requirements study"
+    },
+    {
+      "spec_number": "22.878",
+      "title": "Study on 6G service requirements (extension)",
+      "series": "22",
+      "working_group": "SA1",
+      "document_type": "TR",
+      "category": "services",
+      "notes": "SA1 additional 6G service requirements"
+    },
+    {
+      "spec_number": "22.879",
+      "title": "Study on 6G service requirements (extension 2)",
+      "series": "22",
+      "working_group": "SA1",
+      "document_type": "TR",
+      "category": "services",
+      "notes": "SA1 additional 6G service requirements"
+    },
+    {
+      "spec_number": "33.870",
+      "title": "Study on 6G security",
+      "series": "33",
+      "working_group": "SA3",
+      "document_type": "TR",
+      "category": "security",
+      "notes": "SA3 6G security study item"
+    },
+    {
+      "spec_number": "33.871",
+      "title": "Study on 6G security (extension)",
+      "series": "33",
+      "working_group": "SA3",
+      "document_type": "TR",
+      "category": "security",
+      "notes": "SA3 additional 6G security study"
+    },
+    {
+      "spec_number": "33.872",
+      "title": "Study on 6G security (extension 2)",
+      "series": "33",
+      "working_group": "SA3",
+      "document_type": "TR",
+      "category": "security",
+      "notes": "SA3 additional 6G security study"
+    },
+    {
+      "spec_number": "28.870",
+      "title": "Study on management and orchestration aspects for 6G",
+      "series": "28",
+      "working_group": "SA5",
+      "document_type": "TR",
+      "category": "management",
+      "notes": "SA5 6G management and orchestration study"
+    },
+    {
+      "spec_number": "28.871",
+      "title": "Study on 6G management (extension)",
+      "series": "28",
+      "working_group": "SA5",
+      "document_type": "TR",
+      "category": "management",
+      "notes": "SA5 additional 6G management study"
+    },
+    {
+      "spec_number": "28.872",
+      "title": "Study on 6G management (extension 2)",
+      "series": "28",
+      "working_group": "SA5",
+      "document_type": "TR",
+      "category": "management",
+      "notes": "SA5 additional 6G management study"
+    },
+    {
+      "spec_number": "21.918",
+      "title": "TDoc practical guide",
+      "series": "21",
+      "working_group": "SA",
+      "document_type": "TR",
+      "category": "tools",
+      "notes": "Practical guide for contributing TDocs to 3GPP"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+index/*.db
+index/*.db-*
+downloads/
+*.log
+
+# Local config — copy config.example.json to config.json and edit paths
+config.json
