@@ -4,7 +4,7 @@ A Model Context Protocol (MCP) server that provides **real 3GPP FTP archive acce
 
 ## What it does
 
-- **Discover** 6G-related 3GPP specifications from a curated, extensible catalog (21 specs across SA1/SA2/SA3/SA4/SA5/RAN).
+- **Discover** 6G-related 3GPP specifications from a curated, extensible catalog (29 specs across SA1/SA2/SA3/SA4/SA5/RAN1/RAN2/RAN3).
 - **Download** any specification version directly from the 3GPP FTP archive as a `.zip` (containing the `.docx`).
 - **Extract** structured text from `.docx` files (section titles, levels, content) via `mammoth`.
 - **Index** all extracted sections into a SQLite FTS5 full-text index for fast prefix-matching search.
@@ -193,17 +193,21 @@ The 3GPP FTP archive is served over HTTPS at `https://www.3gpp.org/ftp/Specs/arc
 
 ## Spec catalog
 
-The curated catalog lives at `src/data/6g-spec-catalog.json` and covers 21 specs:
+The curated catalog lives at `src/data/6g-spec-catalog.json` and covers 29 specs:
 
 | Category | Specs | Count |
 |---|---|---|
 | Architecture (SA2) | 23.700-40, 23.700-41, 23.700-42, 23.700-43, 23.700-44, 23.700-45 | 6 |
-| RAN | 38.843, 38.801, 38.821, 38.890 | 4 |
+| RAN physical layer (RAN1) | 38.211, 38.212, 38.213, 38.214, 38.215 | 5 |
+| RAN protocol (RAN2) | 38.300, 38.321, 38.331 | 3 |
+| RAN studies | 38.843, 38.801, 38.821, 38.890 | 4 |
 | Media (SA4) | 26.870 | 1 |
 | Services (SA1) | 22.877, 22.878, 22.879 | 3 |
 | Security (SA3) | 33.870, 33.871, 33.872 | 3 |
 | Management (SA5) | 28.870, 28.871, 28.872 | 3 |
 | Tools | 21.918 | 1 |
+
+> **Note on currency:** Physical-layer and protocol specs (38.211–38.215, 38.300, 38.321, 38.331) are updated at every 3GPP meeting cycle. Use `sync_specification` (without a version argument) to always pull the latest published version from the FTP archive.
 
 To add more specs, edit the JSON file and rebuild. Each entry supports: `spec_number`, `title`, `series`, `working_group`, `document_type` (TS/TR), `category`, `notes`.
 
@@ -223,7 +227,7 @@ mcp-server/
 │   ├── scripts/
 │   │   └── sync-all-6g.ts        # Batch sync script
 │   └── data/
-│       └── 6g-spec-catalog.json  # Curated 6G spec catalog (21 entries)
+│       └── 6g-spec-catalog.json  # Curated 6G spec catalog (29 entries)
 ├── bin/run.js                    # CLI entry point
 ├── config.example.json           # Template — copy to config.json and edit
 ├── config.json                   # User configuration (gitignored)

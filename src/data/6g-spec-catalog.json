@@ -57,6 +57,78 @@
       "notes": "SA2 6G architecture extension study"
     },
     {
+      "spec_number": "38.211",
+      "title": "NR; Physical channels and modulation",
+      "series": "38",
+      "working_group": "RAN1",
+      "document_type": "TS",
+      "category": "ran-physical",
+      "notes": "NR physical-layer modulation and channel structure — baseline for 6G RAN evolution. Updated each RAN1 meeting cycle."
+    },
+    {
+      "spec_number": "38.212",
+      "title": "NR; Multiplexing and channel coding",
+      "series": "38",
+      "working_group": "RAN1",
+      "document_type": "TS",
+      "category": "ran-physical",
+      "notes": "NR channel coding — LDPC/Polar baseline. Updated each RAN1 meeting cycle."
+    },
+    {
+      "spec_number": "38.213",
+      "title": "NR; Physical layer procedures for control",
+      "series": "38",
+      "working_group": "RAN1",
+      "document_type": "TS",
+      "category": "ran-physical",
+      "notes": "NR physical-layer control procedures. Updated each RAN1 meeting cycle."
+    },
+    {
+      "spec_number": "38.214",
+      "title": "NR; Physical layer procedures for data",
+      "series": "38",
+      "working_group": "RAN1",
+      "document_type": "TS",
+      "category": "ran-physical",
+      "notes": "NR physical-layer data procedures. Updated each RAN1 meeting cycle."
+    },
+    {
+      "spec_number": "38.215",
+      "title": "NR; Physical layer measurements",
+      "series": "38",
+      "working_group": "RAN1",
+      "document_type": "TS",
+      "category": "ran-physical",
+      "notes": "NR physical-layer measurement definitions. Updated each RAN1 meeting cycle."
+    },
+    {
+      "spec_number": "38.300",
+      "title": "NR; NR and NG-RAN Overall description",
+      "series": "38",
+      "working_group": "RAN2",
+      "document_type": "TS",
+      "category": "ran-protocol",
+      "notes": "Overall NR/NG-RAN architecture description. Updated each RAN2 meeting cycle."
+    },
+    {
+      "spec_number": "38.321",
+      "title": "NR; Medium Access Control (MAC) protocol specification",
+      "series": "38",
+      "working_group": "RAN2",
+      "document_type": "TS",
+      "category": "ran-protocol",
+      "notes": "NR MAC protocol — core L2 spec. Updated each RAN2 meeting cycle."
+    },
+    {
+      "spec_number": "38.331",
+      "title": "NR; Radio Resource Control (RRC) protocol specification",
+      "series": "38",
+      "working_group": "RAN2",
+      "document_type": "TS",
+      "category": "ran-protocol",
+      "notes": "NR RRC protocol — core control-plane spec. Updated each RAN2 meeting cycle."
+    },
+    {
       "spec_number": "38.843",
       "title": "Study on AI/ML for NG-RAN",
       "series": "38",
